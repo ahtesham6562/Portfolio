@@ -8,7 +8,6 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
-import { useEffect, useState } from 'react';
 
 // Initialize the Inter font with specific subsets
 const inter = Inter({
@@ -17,23 +16,7 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
-export const metadata = {
-  title: "Portfolio of Himachal kumar - Software Developer",
-  description:
-    "This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
-};
-
 export default function RootLayout({ children }) {
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  if (!isMounted) {
-    return null;
-  }
-
   return (
     <html lang="en" className={inter.className}>
       <body className={inter.className}>

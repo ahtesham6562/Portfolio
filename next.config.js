@@ -30,7 +30,9 @@ const nextConfig = {
         pathname: '**',
       },
     ],
+    domains: ['res.cloudinary.com', 'media.dev.to'],
   },
+  optimizeFonts: true,
 };
 
 module.exports = nextConfig;

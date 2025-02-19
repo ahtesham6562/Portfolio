@@ -29,6 +29,9 @@ module.exports = {
           "4k": "1980px",
         },
       },
+      fontFamily: {
+        sans: ['var(--font-inter)'],
+      },
     },
   },
   plugins: [],

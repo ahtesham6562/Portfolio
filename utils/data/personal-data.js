@@ -1,3 +1,5 @@
+"use client";
+
 export const personalData = {
   name: "Himachal Kumar",
   profile: '/my pic.jpg',

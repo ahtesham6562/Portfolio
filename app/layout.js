@@ -1,3 +1,5 @@
+"use client";
+
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -6,6 +8,7 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
+import { useEffect, useState } from 'react';
 
 // Initialize the Inter font with specific subsets
 const inter = Inter({
@@ -21,6 +24,16 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    return null;
+  }
+
   return (
     <html lang="en" className={inter.className}>
       <body className={inter.className}>

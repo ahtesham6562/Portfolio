@@ -14,7 +14,7 @@ export const experiences = [
   {
     id: 3,
     title: "Website2 live ",
-    company: "https://uride.in/",
+    company: "https://buyit-self.vercel.app/",
     duration: "(DEC 2023 - Present)"
   }
 ]

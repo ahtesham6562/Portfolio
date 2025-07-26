@@ -22,13 +22,23 @@ export const projectsData = [
     },
     {
         id: 3,
+        name: 'Civic Connect ',
+        description: "Civic Connect is a full-featured mobile application built using Flutter and Firebase that allows users to report civic issues with location tagging, live updates, and community visibility. The app streamlines communication between citizens and local authorities by leveraging real-time database updates and Google Maps integration. It also includes a resume builder feature for job seekers, enhancing community empowerment through technology. Designed with performance, accessibility, and impact in mind.",
+        tools: ['Flutter', 'Firebase', 'Google Maps API', 'Dart'],
+        role: 'Full Stack App Developer',
+        code: '',
+        demo: ''
+      },
+      {
+        id: 4,
         name: 'Small Projects',
-        description: "I have designed and developed several small-scale yet impactful React projects, showcasing my skills in front-end development and problem-solving. These projects include a QR code generator for creating scannable codes, a stopwatch application with precise time tracking, a calculator with basic and advanced operations, and a quiz app featuring dynamic question rendering and scoring. Each project demonstrates my ability to implement clean and reusable code while focusing on delivering a seamless user experience.",
+        description: "I have developed several focused front-end applications that showcase my skills in UI design, interactivity, and JavaScript logic. These include a QR code generator, a stopwatch app, a calculator with extended operations, and a quiz app with scoring and progress tracking. Each project emphasizes clean coding practices and user-centric design.",
         tools: ['React', 'JavaScript', 'CSS', 'HTML'],
         role: 'Frontend Developer',
         code: '',
-        demo: '',
-    },
+        demo: ''
+      }
+      
     // {
     //     id: 4,
     //     name: 'Newsroom Management',
@@ -40,16 +50,3 @@ export const projectsData = [
     // }
 ];
 
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-// },

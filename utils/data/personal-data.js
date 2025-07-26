@@ -1,19 +1,21 @@
 "use client";
 
 export const personalData = {
-  name: "Himachal Kumar",
-  profile: '/my.jpg',
+  name: "Ahtesham hamid raza",
+  profile: '/profilepic.jpg',
   designation: "Software Developer",
-  description: "My name is Himachal Kumar Yadav. I emerge from a very beautiful city of Jharkhand,  Koderma which is famous for its immense beauty and most importantly its valuable mineral resources.  Currently I am pursuing my bachelor's degree in computer science at Swami Vivekanand Group of institutes, Banur. I am a passionate programmer and a keen learner with some sort of programming knowledge. I am seeking a software company to apply my technical skills and to gain some sort of experience in my early days of learning.   ",
-  email: 'Himachalkumar75@gmail.com',
-  phone: '9142063108',
-  address: 'Jagdishpur,Phira, Ganwan giridih, jharkhand - 815313 ',
-  github: 'https://github.com/himachal-kumar?tab=repositories',
+  description: `Hi, I'm Ahtesham Hamid Raza — a passionate and driven B.Tech CSE student from I.K. Gujral Punjab Technical University. I specialize in building dynamic, user-focused web and mobile applications using modern technologies like MERN Stack, Java, Flutter, and Firebase.
+With a strong foundation in computer science and hands-on experience from multiple personal and hackathon projects, I thrive on solving real-world problems through clean, efficient, and scalable code. Whether it's a blogging platform, a civic issue reporting app, or a productivity tool, I aim to craft solutions that are both functional and meaningful.
+I'm constantly learning, experimenting, and pushing boundaries to grow as a developer and make an impact in the tech world.`,
+  email: 'ahteshamhamidraza@gmail.com',
+  phone: '9162206562',
+  address: 'karma,Ramgarh , Jharkhand -829117',
+  github: 'https://github.com/ahtesham6562',
   facebook: 'https://www.facebook.com/',
-  linkedIn: 'https://www.linkedin.com/in/himachal-kumar-647b99251/',
+  linkedIn: 'www.linkedin.com/in/ahtesham-hamid-raza-17ab92285',
   twitter: 'https://twitter.com/',
   stackOverflow: 'https://stackoverflow.com/users/',
-  leetcode: "https://leetcode.com/u/rPsJA49of8/",
-  devUsername: "Himachal",
-  resume: "https://drive.google.com/file/d/1evXKVylrTqCEefw4LKgVWgYzh3mSSMqR/view?usp=sharing"
+  leetcode: "https://leetcode.com/u/Ahtesham6562/",
+  devUsername: "Ahtesham",
+  resume: "https://drive.google.com/file/d/19KAj5KxNERXzPgzoKn32kbj3iZte-sEt/view?usp=sharing"
 }

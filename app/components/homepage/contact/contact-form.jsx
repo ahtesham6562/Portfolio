@@ -45,7 +45,7 @@ function ContactForm() {
       setIsLoading(true);
       
       const templateParams = {
-        to_email: 'Himachalkumar75@gmail.com',
+        to_email: 'ahteshamhamidraza.com',
         from_name: userInput.name,
         from_email: userInput.email,
         message: userInput.message
